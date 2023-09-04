@@ -8,4 +8,8 @@ Gem::Specification.new do |s|
   s.homepage    =
     "https://rubygems.org/gems/byteflowsdk"
   s.license       = "MIT"
+
+
+  s.add_dependency "faraday", ">= 0.9", "< 3.0"
+  s.add_dependency "faraday-retry", ">= 0.9", "< 3.0"
 end

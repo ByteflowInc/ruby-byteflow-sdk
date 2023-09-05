@@ -1,7 +1,9 @@
 require 'faraday'
 require 'faraday/retry'
+require 'nanoid'
 
-$baseURL = "https://api.byteflow.app"
+# $baseURL = "https://api.byteflow.app"
+$baseURL = "http://localhost:8911"
 
 class ByteflowSDK
   def initialize(apiKey)
@@ -22,6 +24,7 @@ class ByteflowSDK
         message_content: content,
         destination_number: to
       }.to_json
+      req.headers["retry-id"] = Nanoid.generate
     end
     response
   end

@@ -15,5 +15,6 @@
     <orderEntry type="library" scope="PROVIDED" name="faraday (v2.7.10, ruby-3.2.2-p53) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday-net_http (v3.0.2, ruby-3.2.2-p53) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday-retry (v2.2.0, ruby-3.2.2-p53) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nanoid (v2.0.0, ruby-3.2.2-p53) [gem]" level="application" />
   </component>
 </module>

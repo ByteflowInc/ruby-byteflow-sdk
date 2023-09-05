@@ -2,8 +2,7 @@ require 'faraday'
 require 'faraday/retry'
 require 'nanoid'
 
-# $baseURL = "https://api.byteflow.app"
-$baseURL = "http://localhost:8911"
+$baseURL = "https://api.byteflow.app"
 
 class ByteflowSDK
   def initialize(apiKey)

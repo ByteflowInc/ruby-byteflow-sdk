@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
   # Dependencies
   s.add_dependency "faraday", ">= 0.9", "< 3.0"
   s.add_dependency "faraday-retry", ">= 0.9", "< 3.0"
+  s.add_dependency "nanoid", "= 2.0.0"
 end
